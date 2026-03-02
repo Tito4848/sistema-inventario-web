@@ -13,6 +13,24 @@ function Navbar() {
         <li>
           <Link to="/productos" style={{ color: "white" }}>Productos</Link>
         </li>
+        <li>
+          <Link to="/categorias" style={{ color: "white" }}>Categorias</Link>
+        </li>
+        <li>
+          <Link to="/subcategorias" style={{ color: "white" }}>Subcategorias</Link>
+        </li>
+        <li>
+          <Link to="/unidad_medida" style={{ color: "white" }}>Unidad Medida</Link>
+        </li>
+        <li>
+          <Link to="/equivalencia" style={{ color: "white" }}>Equivalencia</Link>
+        </li>
+          <li>
+          <Link to="/stock" style={{ color: "white" }}>Stock</Link>
+        </li>
+          <li>
+          <Link to="/movimientos" style={{ color: "white" }}>Movimientos</Link>
+        </li>
       </ul>
     </nav>
   )
